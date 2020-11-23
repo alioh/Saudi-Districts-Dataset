@@ -9,18 +9,22 @@ The data in this dataset were collected manually from [Nine Tenths](https://map.
 
 ## Data elements:
 
-- District name EN: Text.
-- District name AR: Text.
-- Population: Number.
-- Males %: Number (Decimal).
-- Females %: Number (Decimal).
-- Saudis %: Number (Decimal).
-- Non Saudis %: Number (Decimal).
-- Males: Number.
-- Females: Number.
-- Saudis: Number.
-- Non Saudis: Number.
-- Average Income: Number.
+Some of the columns were collected manually and others we used little math to find it
+
+**Label**|**Type**|**Source (or columns)**
+:-----:|:-----:|:-----
+District name EN|Text|Manually Translated
+District name AR|Text|Nine Tenths
+Population|Number|Nine Tenths
+Males %|Number (Decimal)|Nine Tenths
+Females %|Number (Decimal)|= 1 - [Males %]
+Saudis %|Number (Decimal)|Nine Tenths
+Non Saudis %|Number (Decimal)|= [Population] - [Saudis %]
+Males|Number|= [Males %] * [Population]
+Females|Number|= [Population] - [Males]
+Saudis|Number|= [Saudis %] * [Population]
+Non Saudis|Number|= [Population] - [Saudis]
+Average Income|Number|Nine Tenths
 
 ## Note:
 
