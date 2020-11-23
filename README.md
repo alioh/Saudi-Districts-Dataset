@@ -3,7 +3,7 @@
 The data in this dataset were collected manually from [Nine Tenths](https://map.910ths.sa/).
 
 
-By: [Ali Alohali](www.alioh.com), [Sara Alsayat](http://linkedin.com/in/saraalsiyat), [Ibrahim AlHammad](http://linkedin.com/in/ibrahim-alhammad-7228b3178), [Nora AlAmri](https://www.linkedin.com/in/nora-alamri) and [Rawan Almohimeed](https://www.linkedin.com/in/rawanmohimeed)
+By: [Ali Alohali](http://alioh.com), [Sara Alsayat](http://linkedin.com/in/saraalsiyat), [Ibrahim AlHammad](http://linkedin.com/in/ibrahim-alhammad-7228b3178), [Nora AlAmri](https://www.linkedin.com/in/nora-alamri) and [Rawan Almohimeed](https://www.linkedin.com/in/rawanmohimeed)
 
 Data elements:
 - District name EN: Text.
