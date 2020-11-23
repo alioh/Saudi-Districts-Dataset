@@ -1,4 +1,4 @@
-# Riyadh Districts Dataset
+# Saudi Arabia Districts Dataset
 
 The data in this dataset were collected manually from [Nine Tenths](https://map.910ths.sa/).
 
@@ -22,6 +22,7 @@ Data elements:
 Some entries are 0, in income it means unavailable. If the whole row is 0 it means data is unavailable. In other fields it means actual 0% or 0.
 
 Future work:
+- Add more cities.
 - Add more data.
     * distribution of income by age, sex and nationality.
     * Coordinates of each districts.
