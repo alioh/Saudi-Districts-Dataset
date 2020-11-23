@@ -1,7 +1,10 @@
 # Saudi Arabia Districts Dataset
 
-The data in this dataset were collected manually from [Nine Tenths](https://map.910ths.sa/).
 
+## About 
+
+This dataset is a collection of files related to Saudi Arabia's districts. The data were collected manually from 
+This data includes general information about districts of the Kingdom of Saudi Arabia, such as the number of residents, the proportion of Saudis and foreigners, the distribution of males and females, in addition to the average income. Data were collected manually from [Nine Tenths](https://map.910ths.sa/).
 
 ## Credit
 
