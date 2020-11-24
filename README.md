@@ -22,7 +22,7 @@ Population|Number|Nine Tenths
 Males %|Number (Decimal)|Nine Tenths
 Females %|Number (Decimal)|= 1 - [Males %]
 Saudis %|Number (Decimal)|Nine Tenths
-Non Saudis %|Number (Decimal)|= [Population] - [Saudis %]
+Non Saudis %|Number (Decimal)|= 1 - [Saudis %]
 Males|Number|= [Males %] * [Population]
 Females|Number|= [Population] - [Males]
 Saudis|Number|= [Saudis %] * [Population]
