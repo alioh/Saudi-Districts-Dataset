@@ -16,7 +16,7 @@ This data includes general information about districts of the Kingdom of Saudi A
 Thanks to the following contributors:
 
 **Name**|**contribution**
-:-----:|:-----:|:-----
+:-----:|:-----:|
 [Dr. Najwa Alghmadi](https://www.najwa-alghamdi.net/)|Providing most of Lat/Long data.
 
 ## Data elements:
