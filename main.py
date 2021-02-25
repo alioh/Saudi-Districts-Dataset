@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def get_data():
     data = "https://github.com/alioh/Saudi-Districts-Dataset/raw/main/riyadh_districts.csv"
