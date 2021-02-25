@@ -56,7 +56,7 @@ for p in ax.patches:
 
 ax.set_title('Nationality Distribution')
 ax.set(xlabel='Nationality', ylabel='Total')
-st.pyplot(ax)
+st.pyplot()
 
 # gender graph
 ax = sns.barplot(x="Column", y="Value", data=gender)
@@ -68,7 +68,7 @@ for p in ax.patches:
 
 ax.set_title('Gender Distribution')
 ax.set(xlabel='Gender', ylabel='Total')
-st.pyplot(ax)
+st.pyplot()
 
 # income graph
 
@@ -81,4 +81,4 @@ for p in ax.patches:
 
 ax.set_title('District Income VS All District Average Income')
 ax.set(xlabel='Income', ylabel='Average')
-st.pyplot(ax)
+st.pyplot()
