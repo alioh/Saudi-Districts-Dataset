@@ -19,33 +19,33 @@ Thanks to the following contributors:
 :-----:|:-----:|
 [Dr. Najwa Alghmadi](https://www.najwa-alghamdi.net/)|Providing most of Lat/Long data.
 
-## Data elements:
+## Data elements
 
 Some of the columns were collected manually and others we used little math to find it
 
 **Label**|**Type**|**Source (or columns)**
 :-----:|:-----:|:-----
-District name EN|Text|Manually Translated
-District name AR|Text|Nine Tenths
-Latitude|Number (Decimal)|Manually Collected
-Longitude|Number (Decimal)|Manually Collected
+District_name_EN|Text|Manually Translated
+District_name_AR|Text|Nine Tenths
+latitude|Number (Decimal)|Manually Collected
+longitude|Number (Decimal)|Manually Collected
 Population|Number|Nine Tenths
-Males (%)|Number (Decimal)|Nine Tenths
-Females (%)|Number (Decimal)|= 1 - [Males (%)]
-Saudis (%)|Number (Decimal)|Nine Tenths
-Non Saudis (%)|Number (Decimal)|= 1 - [Saudis (%)]
+Males_(%)|Number (Decimal)|Nine Tenths
+Females_(%)|Number (Decimal)|= 1 - [Males (%)]
+Saudis_(%)|Number (Decimal)|Nine Tenths
+Non_Saudis_(%)|Number (Decimal)|= 1 - [Saudis (%)]
 Males|Number|= [Males (%)] * [Population]
 Females|Number|= [Population] - [Males]
 Saudis|Number|= [Saudis (%)] * [Population]
-Non Saudis|Number|= [Population] - [Saudis]
-Average Income|Number|Nine Tenths
+Non_Saudis|Number|= [Population] - [Saudis]
+Average_Income|Number|Nine Tenths
 
 
-## Note:
+## Note
 
 Some entries are 0, in income it means unavailable. If the whole row is 0 it means data is unavailable. In other fields it means actual 0% or 0.
 
-## Future work:
+## Future work
 
 - Add more cities.
 - Add more data.
@@ -54,12 +54,12 @@ Some entries are 0, in income it means unavailable. If the whole row is 0 it mea
     * Zip codes.
 - Convert the data to SQL Database, Excel and json.
 
-## Help:
+## Help
 
 You can submit your ideas or edits to this dataset. We will review it and approve it.
 
 
 
-## Use:
+## Use
 
 Feel free to use the dataset **as long as you credit the authors**.
