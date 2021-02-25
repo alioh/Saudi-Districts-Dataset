@@ -13,6 +13,25 @@ df = get_data()
 
 st.title('Saudi Arabia Districts Dataset')
 st.write("This dataset is a collection of files related to Saudi Arabia's districts. The data were collected manually from This data includes general information about districts of the Kingdom of Saudi Arabia, such as the number of residents, the proportion of Saudis and foreigners, the distribution of males and females, in addition to the average income. Data were collected manually from [Nine Tenths](https://map.910ths.sa/).")
+st.write("## Credit")
+st.write("[Ali Alohali](http://alioh.com), [Sara AlSiyat](http://linkedin.com/in/saraalsiyat), [Ibrahim AlHammad](http://linkedin.com/in/ibrahim-alhammad-7228b3178), [Nora AlAmri](https://www.linkedin.com/in/nora-alamri) and [Rawan AlMohimeed](https://www.linkedin.com/in/rawanmohimeed).")
+
+st.write("## Thanks")
+st.write("Thanks to the following contributors:")
+
+st.markdown(
+    """
+    **Name**|**contribution**
+:-----:|:-----:|
+[Dr. Najwa Alghmadi](https://www.najwa-alghamdi.net/)|Providing most of Lat/Long data.
+""")
+
+
+st.write("## Data")
+st.write("[GitHub link](https://github.com/alioh/Saudi-Districts-Dataset)")
+
+
+
 
 agree = st.checkbox("Show all data")
 if agree:

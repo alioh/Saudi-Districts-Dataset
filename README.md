@@ -1,6 +1,5 @@
 # Saudi Arabia Districts Dataset
 
-
 ## About 
 
 This dataset is a collection of files related to Saudi Arabia's districts. The data were collected manually from 
@@ -10,6 +9,9 @@ This data includes general information about districts of the Kingdom of Saudi A
 
 [Ali Alohali](http://alioh.com), [Sara AlSiyat](http://linkedin.com/in/saraalsiyat), [Ibrahim AlHammad](http://linkedin.com/in/ibrahim-alhammad-7228b3178), [Nora AlAmri](https://www.linkedin.com/in/nora-alamri) and [Rawan AlMohimeed](https://www.linkedin.com/in/rawanmohimeed).
 
+## Streamlit
+
+[View the app](https://share.streamlit.io/alioh/saudi-districts-dataset/main/main.py)
 
 ## Thanks
 
@@ -57,7 +59,6 @@ Some entries are 0, in income it means unavailable. If the whole row is 0 it mea
 ## Help
 
 You can submit your ideas or edits to this dataset. We will review it and approve it.
-
 
 
 ## Use
